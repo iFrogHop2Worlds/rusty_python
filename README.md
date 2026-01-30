@@ -1,5 +1,5 @@
-# Based_Python
-A transpiler that makes python better. Written in Rust. Inspired by bython (bracket python).
+# Rusty Python
+A transpiler that lets you write python code using a modified syntax and inherits some of rust safety gurantees making your python code more reliable and correct.
 
 
 # Just transpile to Python and print to stdout
@@ -17,4 +17,4 @@ cargo run -- -i example.bython --run
 # Use a specific Python interpreter
 cargo run -- -i example.bython --run --python-interpreter python3
 
-A work in progress. Feel free to contribute or raise issues :)
+This is a work in progress
